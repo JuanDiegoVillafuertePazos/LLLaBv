@@ -1,0 +1,166 @@
+$date
+	Sun Nov 08 21:23:27 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module Ejercicio_2_tb $end
+$var wire 4 ! salida_total [3:0] $end
+$var wire 4 " salida_ALU [3:0] $end
+$var wire 4 # data_bus [3:0] $end
+$var wire 4 $ accu [3:0] $end
+$var wire 2 % Z_ALU [1:0] $end
+$var wire 2 & C_ALU [1:0] $end
+$var reg 3 ' Configuracion_ALU [2:0] $end
+$var reg 1 ( Control_1 $end
+$var reg 1 ) Control_2 $end
+$var reg 4 * Entrada [3:0] $end
+$var reg 1 + almacen $end
+$var reg 1 , clk_ALU $end
+$var reg 1 - enable_ALU $end
+$var reg 1 . enable_acumulador $end
+$var reg 1 / reset_ALU $end
+$var reg 1 0 reset_acumulador $end
+$scope module c1 $end
+$var wire 3 1 Configuracion_ALU [2:0] $end
+$var wire 1 ( Control_1 $end
+$var wire 1 ) Control_2 $end
+$var wire 4 2 Entrada [3:0] $end
+$var wire 1 + almacen $end
+$var wire 1 , clk_ALU $end
+$var wire 1 - enable_ALU $end
+$var wire 1 . enable_acumulador $end
+$var wire 1 / reset_ALU $end
+$var wire 1 0 reset_acumulador $end
+$var wire 4 3 salida_total [3:0] $end
+$var wire 4 4 salida_ALU [3:0] $end
+$var wire 4 5 data_bus [3:0] $end
+$var wire 4 6 accu [3:0] $end
+$var wire 2 7 Z_ALU [1:0] $end
+$var wire 2 8 C_ALU [1:0] $end
+$scope module f1 $end
+$var wire 4 9 a [3:0] $end
+$var wire 1 ( enable $end
+$var wire 4 : salida [3:0] $end
+$upscope $end
+$scope module f2 $end
+$var wire 4 ; Entrada [3:0] $end
+$var wire 1 , clk $end
+$var wire 1 - enable $end
+$var wire 3 < operacion [2:0] $end
+$var wire 1 / reset $end
+$var wire 4 = acumulador [3:0] $end
+$var reg 2 > c [1:0] $end
+$var reg 4 ? salida [3:0] $end
+$var reg 2 @ z [1:0] $end
+$upscope $end
+$scope module f3 $end
+$var wire 1 + almacen $end
+$var wire 1 , clk $end
+$var wire 1 . enable $end
+$var wire 4 A entrada [3:0] $end
+$var wire 1 0 reset $end
+$var reg 4 B almacen1 [3:0] $end
+$var reg 4 C salida [3:0] $end
+$upscope $end
+$scope module f4 $end
+$var wire 4 D a [3:0] $end
+$var wire 1 ) enable $end
+$var wire 4 E salida [3:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx E
+bx D
+bx C
+bx B
+bx A
+bx @
+bx ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+bx 3
+bx 2
+bx 1
+x0
+x/
+x.
+x-
+0,
+x+
+bx *
+x)
+x(
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+bx !
+$end
+#10
+bz !
+bz 3
+bz E
+bz #
+bz 5
+bz :
+bz ;
+0+
+0.
+0-
+10
+1/
+0)
+0(
+b1 *
+b1 2
+b1 9
+1,
+#20
+b101 "
+b101 4
+b101 ?
+b101 A
+b101 D
+b101 #
+b101 5
+b101 :
+b101 ;
+b101 *
+b101 2
+b101 9
+1.
+1+
+b10 '
+b10 1
+b10 <
+1(
+0,
+#30
+bx "
+bx 4
+bx ?
+bx A
+bx D
+b101 B
+b1 '
+b1 1
+b1 <
+1,
